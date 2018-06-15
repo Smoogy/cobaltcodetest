@@ -1,0 +1,14 @@
+html, body {
+  background-color: #f1f5f6; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 3em;
+  text-align: center; }
+  .container .cheekyText {
+    font-size: 10px;
+    font-weight: bold; }
+  .container .customPanel {
+    padding-bottom: 2em; }

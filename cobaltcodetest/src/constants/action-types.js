@@ -1,0 +1,5 @@
+export const FETCH_TAGS_BEGIN = 'FETCH_TAGS_BEGIN';
+export const FETCH_TAGS_SUCCESS = 'FETCH_TAGS_SUCCESS';
+export const FETCH_TAGS_ERROR = 'FETCH_TAGS_ERROR';
+export const SET_ENDPOINT = 'SET_ENDPOINT';
+export const SET_TAG = 'SET_TAG';
