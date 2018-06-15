@@ -4,7 +4,6 @@ import {
   FETCH_TAGS_ERROR,
   SET_ENDPOINT,
   SET_TAG } from '../constants/action-types';
-import axios from 'axios';
 
 const initialState = {
   tags: [],

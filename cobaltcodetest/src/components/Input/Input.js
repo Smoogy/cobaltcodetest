@@ -4,9 +4,6 @@ import { setEndpoint, setTag } from './../../actions/index'
 import './Input.css';
 
 class Input extends Component {
-  constructor (props){
-    super(props);
-  }
 
   render() {
     const { dispatch, inputKey, placeholder } = this.props;
@@ -30,7 +27,6 @@ class Input extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  key: ownProps.key
 };
 
 export default connect(mapStateToProps)(Input);
