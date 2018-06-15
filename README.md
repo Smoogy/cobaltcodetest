@@ -15,7 +15,7 @@ bash run.sh
   * I'm a massive fan of Enzyme, so I would have found a place for that, too. :)
 
 ## Front end
-* My general rule of thumb is to keep React components' render functions as small as possible (generally <= 10 lines). I know I've violated that rule slightly here, but I'm mainly concerned about massive `map` functions that eat up a whole 30 lines, the logic could easily be moved over to its own component.
+* My general rule of thumb is to keep React components' render functions as small as possible (generally <= 10 lines). I know I've violated that rule slightly here, but I'm mainly concerned about massive `map` functions that eat up a whole 30 lines, when the logic could easily be moved over to its own component.
 * `node-sass` is life. You might notice that I've included a run script that automatically creates new CSS files when new SCSS files pop up.
 
 ## Back end
